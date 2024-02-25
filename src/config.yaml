@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: NUYU Laser Clinic
+  site: 'https://nuyulaserclinics.com'
   base: '/'
   trailingSlash: false
 
@@ -16,7 +16,7 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: NUYU Laser Clinics
     images:
       - url: '~/assets/images/default.png'
         width: 1200
