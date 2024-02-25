@@ -1,8 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
-
-import Note from '~/components/widgets/Note.astro';
+import MedStat from '~/components/widgets/MedStat.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
@@ -37,9 +35,16 @@ const metadata = {
 	</section>
 </div>
 
-  <!-- Note Widget ******************* -->
+<!-- Medical Statement Widget *************** -->
 
-  <Note />
+<MedStat
+id="medstat"
+tagline="A Medically Trained Aesthetics Company Providing:"
+title="Anti Wrinkle Injections, Dermal Fillers & Laser Treatments."
+items={[
+]}
+/>
+
 
   <!-- Features Widget *************** -->
 
