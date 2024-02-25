@@ -43,23 +43,23 @@ export const headerData = {
       text: 'Injectables',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'BOTOX® // Wrinkle Relaxers',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'Lip Enhancements',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Dermal Fillers',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Profhilo®',
           href: getPermalink('/landing/product'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
+          text: 'Vitamin B12 Injection',
           href: getPermalink('/landing/pre-launch'),
         },
         {
@@ -72,27 +72,35 @@ export const headerData = {
       text: 'Skin',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'HydraFacial',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'Microdermabrasion',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Microneedling',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Cosmetic Grade Peels',
           href: getPermalink('/landing/product'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
+          text: 'Advanced Facials',
           href: getPermalink('/landing/pre-launch'),
         },
         {
-          text: 'Subscription',
+          text: 'Pigmentation Removal',
+          href: getPermalink('/landing/subscription'),
+        },
+        {
+          text: 'Capillary Reduction',
+          href: getPermalink('/landing/subscription'),
+        },
+        {
+          text: 'Skin Tightening',
           href: getPermalink('/landing/subscription'),
         },
       ],
@@ -156,7 +164,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Book Now', href: 'https://bookings.gettimely.com/nuyulaserclinics/bb/book', target: '_blank' }],
 };
 
 export const footerData = {
